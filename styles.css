@@ -11,6 +11,18 @@ h1 {
 
 }
 
+h2{
+  font-size: 40px;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+figcaption{
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
@@ -45,7 +57,16 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 1% auto;
+}
+
+.row{
+  display: flex;
+}
+
+.column{
+  width: 33.33%;
+  padding: 5px;
 }
 
 .game-over {
